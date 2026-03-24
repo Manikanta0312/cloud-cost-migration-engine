@@ -2,33 +2,40 @@
 
 A deterministic cloud cost analysis system that maps AWS services to equivalent GCP services and pricing models.
 
-## Problem
-Cloud migration decisions are complex due to differences in pricing models, SKUs, and service structures across providers.
+---
 
-## Solution
-This system analyzes AWS billing data and maps it to GCP services to estimate equivalent costs.
+## 🚀 Overview
+This project helps organizations estimate cloud migration cost from AWS to GCP by analyzing billing data and mapping services, regions, and pricing models.
 
-## Features
+---
+
+## 🧩 Problem Statement
+Cloud providers use different:
+- Service naming conventions
+- Pricing models (on-demand, reserved, etc.)
+- Regions and SKUs
+
+This makes cost comparison and migration planning complex.
+
+---
+
+## 💡 Solution
+This system:
+- Parses AWS billing data
+- Maps AWS services → GCP equivalents
+- Normalizes regions and usage units
+- Estimates equivalent GCP cost
+
+---
+
+## ⚙️ Features
 - AWS billing JSON parsing
-- Service mapping (AWS → GCP)
-- SKU and pricing alignment
+- Service mapping engine (AWS → GCP)
 - Region normalization
-- Cost comparison engine
+- SKU-level mapping (basic)
+- Cost estimation engine
 
-## Architecture
-- Backend: Python / Go
-- Data Processing: BigQuery / MongoDB
-- APIs: REST-based services
+---
 
-## Example
+## 🏗️ Architecture
 
-Input: AWS EC2 usage  
-Output: Equivalent GCP Compute Engine cost  
-
-## Future Scope
-- Multi-cloud support (Azure)
-- UI dashboard
-- SaaS platform
-
-## Author
-Manikanta N
