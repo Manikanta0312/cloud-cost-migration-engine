@@ -1,0 +1,6 @@
+{
+  "service": "Compute Engine",
+  "machine_type": "e2-medium",
+  "region": "asia-south1",
+  "estimated_cost": 9.5
+}

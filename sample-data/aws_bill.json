@@ -1,0 +1,7 @@
+{
+  "service": "Amazon EC2",
+  "region": "ap-south-1",
+  "instance_type": "t3.medium",
+  "usage_hours": 100,
+  "cost": 10
+}
